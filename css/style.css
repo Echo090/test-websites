@@ -1,3 +1,21 @@
-p {
-    font-size: 12px;
+/* main {
+    position: relative;
+} */
+.subsection-01 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.today-i-learned{
+    width: 40vw;
+    margin: 0 auto;
 }
