@@ -1,7 +1,7 @@
 /* main {
     position: relative;
 } */
-.subsection-01 {
+/* .about this project {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 80vw;
     margin: 0 auto;
@@ -18,4 +18,47 @@ p{
 .today-i-learned{
     width: 40vw;
     margin: 0 auto;
+} */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+
+
+}
+.about{
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.about p{
+    text-align: justify;
+}
+
+
+.daily-entries{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entry{
+    flex-basis: 49.5%;
+        border-style: solid;
+        border-color: red;
+        border-width: 1px;
+
+
+}
+
+.entry h1{
+    font-style: italic;
 }
