@@ -1,64 +1,91 @@
-/* main {
-    position: relative;
-} */
-/* .about this project {
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 80vw;
-    margin: 0 auto;
 }
 
-h1{
-    text-align: center;
-}
-
-p{
-    text-align: center;
-}
-
-.today-i-learned{
-    width: 40vw;
-    margin: 0 auto;
-} */
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 80vw;
+    overflow-y: hidden
+}
+
+.flex-container{
+    display:flex;
+    flex-flow:row;
+    /* flex-flow:row nowrap;
+    justify-content:space-between; */
+    height:100vh;
+}
+
+.sidebar-flex-container{
+    flex: 0 0 20%;
+    flex-flow: column nowrap;
+    text-align: center;
+    background: lightgreen;
+    padding: 10px 10px 10px 10px;
+}
+
+    .about h1{
+        text-align: center;
+    }
+
+    .about p{
+        text-align: justify;
+    }
+
+.content-flex-container{
+    flex: 1 1 80%;
+    overflow-y: auto;
+}
+
+.content{
     margin: 0 auto;
+    width: 80%;
+    height: 100vw;
     padding: 5px 5px 5px 5px;
         border-style: solid;
         border-color: red;
         border-width: 1px;
-
-
-}
-.about{
-        border-style: solid;
-        border-color: red;
-        border-width: 1px;
 }
 
-.about h1{
-    text-align: center;
-}
+    .intro{
+        text-align: center;
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
+    }
 
-.about p{
-    text-align: justify;
-}
+    .intro h1{
+        font-size: 2.5em;
+    }
 
+    .daily-entries{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
 
-.daily-entries{
-    display: flex;
-    flex-wrap: wrap;
-}
+        .entry{
+            flex-basis: 50%;
+                border-style: solid;
+                border-color: red;
+                border-width: 1px;
+        }
 
-.entry{
-    flex-basis: 49.5%;
-        border-style: solid;
-        border-color: red;
-        border-width: 1px;
+        .entry h1{
+            font-style: italic;
+            text-align: center;
+        }
 
+    .mock-button {
+        display: inline-block;
+        background-color: gray;
+        width: 25%;
+        padding: 5px 5px;
+        text-align: center;
 
-}
+    }
 
-.entry h1{
-    font-style: italic;
-}
+    .mock-button:hover{
+        background-color: lightgrey;
+    }
