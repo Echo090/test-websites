@@ -27,6 +27,7 @@ h1{
     flex-flow: column nowrap;
     text-align: left;
     background: #fed049;
+    height: 1000px;
 }
 
 .sidebar{
@@ -108,27 +109,42 @@ h1{
         text-transform: uppercase   ;
     }
 
-    .daily-entries{
+    .daily-notes-container{
         display: flex;
         flex-wrap: wrap;
         /* justify-content: space-between; */
     }
 
-        .entry{
+        .daily-notes-entry{
             flex-basis: 50%;
             padding: 0px 10px 10px 10px;
         }
 
-        .entry:hover{
+        .daily-notes-entry:hover{
             background-color: #007580;
             color: #d8ebe4
         }
 
-        .entry h1{
+        .daily-notes-entry h1{
             text-align: center;
             margin-top: 2%;
             margin-bottom: 2%;
         }
+
+        .DLE-date{
+            margin-bottom: 5%;
+        }
+
+        .daily-learning-entry h2{
+            font-size: 1.25em;
+        }
+
+
+
+
+
+
+
 
     .mock-button {
         display: inline-block;
@@ -154,3 +170,4 @@ h1{
     .logo:hover{
         opacity: 100%;
     }
+
