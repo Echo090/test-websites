@@ -1,0 +1,17 @@
+.content-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.mock-project-entry{
+    /* justify-self: center;
+    align-self: center; */
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    border: red 1px solid;
+}
+
