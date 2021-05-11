@@ -168,6 +168,11 @@ h1{
             font-size: 1.25rem;
         }
 
+        .daily-learning-entry p {
+            line-height: 130%;
+            margin-bottom: 1em;
+        }
+
 
         .mock-button {
             display: inline-block;
@@ -181,6 +186,8 @@ h1{
         .mock-button:hover{
             background-color: lightgrey;
         }
+
+
 
     .logo{
         width: 20%;
