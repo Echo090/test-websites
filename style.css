@@ -160,6 +160,10 @@ h1{
             margin-bottom: 2%;
         }
 
+        .daily-notes-entry p{
+            margin-bottom: 1em;
+        }
+
         .DLE-date{
             margin-bottom: 5%;
         }
